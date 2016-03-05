@@ -33,5 +33,10 @@
         android:textColor="#d8d523"
         android:background="#09fc76"
         android:layout_centerInParent="true"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:textAppearance="#cc0e0e"
+        android:textIsSelectable="true"
+        android:typeface="normal"
+        android:capitalize="words"
+        android:contextClickable="true" />
 </RelativeLayout>
