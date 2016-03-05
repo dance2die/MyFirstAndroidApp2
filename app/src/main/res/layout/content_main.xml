@@ -15,5 +15,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hiDance2die"
-        android:id="@+id/hiDance2die" />
+        android:id="@+id/hiDance2die"
+        android:layout_margin="10dp"
+        android:background="#f00404"
+        android:padding="10dp"
+        android:textColor="#184be6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Love Android"
+        android:id="@+id/textView"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/hiDance2die"
+        android:layout_alignLeft="@+id/hiDance2die"
+        android:layout_alignStart="@+id/hiDance2die"
+        android:textColor="#d8d523"
+        android:background="#09fc76"
+        android:layout_centerInParent="true"
+        android:textSize="50dp" />
 </RelativeLayout>
