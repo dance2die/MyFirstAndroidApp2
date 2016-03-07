@@ -9,11 +9,16 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
     public void clickFunction(View view){
-        Log.i("Info", "Button clicked!");
+        EditText myTextField = (EditText) findViewById(R.id.textField);
+        EditText myPasswordField = (EditText) findViewById(R.id.passwordField);
+        Log.i("Text Field Value", myTextField.getText().toString());
+        Log.i("Password Field Value", myPasswordField.getText().toString());
+
     }
 
     @Override
